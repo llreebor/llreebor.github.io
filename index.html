@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Роман Тимощук | Портфолио</title>
   <link rel="stylesheet" href="css/style.min.css">
-  <link rel="stylesheet" href="./css/animate.min.css">
   <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
 </head>
 
 <body>
@@ -139,6 +139,11 @@
         <div class="modal__title"><span>Написать мне:</span> </div>
         <div class="modal__inputs">
           <form class="modal__inputs-items">
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Portfolio">
+            <input type="hidden" name="admin_email" value="timoschuk.roman@gmail.com">
+            <input type="hidden" name="form_subject" value="Заявка с сайта">
+            <!-- END Hidden Required Fields -->
             <label for="name" class="modal__label" >Имя:</label>
             <input type="text" class="form__input" name="name">
             <label for="text"   class="modal__label">Сообщение:</label>
@@ -158,6 +163,11 @@
         <div class="footer__block footer__items-form">
           <span class="form__title"><span class="text__decoration"> Напиши </span> мне:</span>
           <form>
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Site Name">
+            <input type="hidden" name="admin_email" value="admin@mail.com">
+            <input type="hidden" name="form_subject" value="Form Subject">
+            <!-- END Hidden Required Fields -->
             <label for="name" class="label" >Имя:</label>
             <input type="text" class="form__input" name="name">
             <label for="text"  class="label">Сообщение:</label>
@@ -177,14 +187,12 @@
             <li class="footer__menu-links--item"></li>
           </ul>
         </div>
-        <!-- <div class="footer__block">
-        </div> -->
       </div>
       </div>
     </div>
   </footer>
   <!-- End Footer -->
 
-  <script src="./js/scripts.min.js"></script>
+<script src="./js/scripts.min.js"></script>
 </body>
 </html>
